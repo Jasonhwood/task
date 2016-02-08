@@ -2,37 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width;initial-scale=1;maximum-scale=1";>
+    <meta name="viewport" content="width=device-width;initial-scale=1.0;">
     <title>task3</title>
     <style type="text/css">
         body,h1,p,img{padding: 0;margin: 0}
+        html{font-size: 62.5%}
         .head{position: relative;
             width: 100%;
             max-width: 640px;
-              height: 92px;
+
               margin: 0 auto;
+            padding: 1% 0 1% 0;
               background-color: black;
         }
         .return{
             position: absolute;
             top: 5%;
             left: 3%;
-            width: 20%;
-            height: 50px;
+            width: 30%;
+            height: 100%;
 
         }
         .return img{
-            padding-top:10%;
+            padding:10% 0 10% 0;
             width: 30%;
-            max-width: 30px;
-            height: 50px;
+            max-width: 100%;
+            height: 50%;
         }
         .return span{
             display: block;
             position: absolute;
-            top: 33%;
-            left: 30%;
-            font-size: 200%;
+            top: 30%;
+           left: 30%;
+            text-align: left;
+            font-size: 150%;
             width:70%;
             color:white;
         }
@@ -60,50 +63,55 @@
             top: 3%;
             left: 5%;
         }
-        .logo {
+        .center {
+            max-width: 640px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 10% 5%;
+        }
+        .logo img {
+           padding-top: 15%;
 
-            position: absolute;
-            left: 33%;
-            top: 10%;
         }
         .main p{
             width: 60%;
-            font-size: 180%;
+            font-size: 200%;
             margin: 0 auto;
-            padding-top: 40%;
+            padding-top: 10%;
             color: white;
         }
         .content{
-            width: 50%;
-            padding-left: 25%;
-            padding-right: 25%;
+            font-size: 80%;
+            width: 60%;
+            padding-left: 20%;
+            padding-right: 20%;
             padding-bottom:50%;
         }
 
         .login {
             clear: both;
-            float: lef;
-            padding-top: 40%;
+            float: left;
+            padding-top: 20%;
         }
 
 
 
 
         .logo1{
-            clear: both;
+
             float: right;
-            padding-top: 40%;
+            padding-top: 20%;
         }
 
         .text1 {
             position: absolute;
-            top: 40%;
+            bottom: 20%;
             left: 23%;
             text-align: left;
         }
         .text2{
             position: absolute;
-            top: 40%;
+            bottom: 20%;
             right: 23%;
             text-align: right;
 
@@ -111,23 +119,26 @@
     </style>
 
 </head>
-<body>
+<div>
     <div class="head">
         <div class="return"><img src="images/images11.png"><span>返回</span></div>
         <h1>魔镜</h1>
         <div class="other"><img src="images/image2.png"></div>
     </div>
-    <div class="main">
-        <img class="back" src="images/image3.png">
-        <img class="logo" src="images/image4.png">
-        <p>葡萄藤轻游戏专注于桌游领域，提供在线杀人，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。</p>
-        <div class="content">
-            <img class="login" src="images/image6.png">
-            <img class="logo1" src="images/image7.png">
 
+    <div class="main">
+        <div class="back" ><img  src="images/image3.png"></div>
+        <div class="center">
+            <div class="logo"><img  src="images/image4.png"></div>
+            <p>葡萄藤轻游戏专注于桌游领域，提供在线杀人，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具。</p>
+            <div class="content">
+                <img class="login" src="images/image6.png">
+                <img class="logo1" src="images/image7.png">
+                <p class="text1">290560933</p>
+                <p class="text2">BJPTTeng</p>
+            </div>
         </div>
-        <p class="text1">290560933</p>
-        <p class="text2">BJPTTeng</p>
+
     </div>
 
 </body>
